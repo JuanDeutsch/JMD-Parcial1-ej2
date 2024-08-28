@@ -4,8 +4,99 @@
 
 :root {
     --background-color: #1E1E1E;
+    --text-color: #FFFFFF;
+    --secondary-text-color: #FFFFFF;
+    --primary-color: #11B0C8;
+    --card-background-color: #313234;
+    --border-radius: 8px;
+    --image-border-radius: 16px;
+    --heart-color: #11B0C8;
+    --size-text: 16px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+
+h3, p {
+    margin: 5px 0;
 }
 
 .character-list {
     background-color: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.character {
+    background-color: var(--card-background-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    width: 294px;
+    height: 400px;
+    padding: 15px;
+    
+}
+
+.character img.character-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--image-border-radius);
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--text-color);
+    font-size: var(--size-text);
+}
+
+.character-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.character-detail {
+    display: flex;
+    align-items: center;
+}
+
+.detail-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#Muerto {
+    filter: hue-rotate(-70deg);
+}
+
+#Desconocido {
+    filter: hue-rotate(-180deg);
 }
