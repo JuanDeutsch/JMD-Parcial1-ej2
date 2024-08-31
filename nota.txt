@@ -1,0 +1,27 @@
+
+1. capa de servicio (service.js):
+    + excelente manejo de fetch y async/await asi es como se debe manejar cliente rest
+    + buen manejo de clases y sus propiedades
+    ! si deseas retonar algo asi falle el error puedes agregar una sentencia finally a tu catch y relizar el manejo ahi
+    + muy buen uso de la funcion map
+2.  manejo HTML y Acceso al DOM (index.js):
+    + excelente manejo del DOM de los elementos y sus propiedades
+    + muy buen uso de las etiquetas y sus propiedades
+    + excelente uso de la destructuracion de un objeto
+3.  manejo de eventos (index.js)
+    + perfecto el manejo de los eventos
+4.  manejo de estilos
+    + excelente manejo de maquetacion, uso de selectores 
+    + muy bien por el uso de variables CSS excelente
+
+Muy buen trabajo !
+
+Calificacion
+  1. Estilos y diseño HTML y CSS deacuerdo al figma -> CUMPLE (2 puntos)
+  2. Listado de personajes con toda la información solicitada esto incluye indicador de Alive & Dead con el estilo respectivo -> CUMPLE (2 puntos)
+  3. Evento de click y mensaje informativo ´Hola soy (nombre personaje)´ -> CUMPLE (1 punto)
+
+Nota: 5
+
+
+ejercicio puntual: 5
